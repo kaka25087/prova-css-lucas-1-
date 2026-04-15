@@ -3,12 +3,12 @@ body {
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
     
-    /* --- ADICIONE ESTAS LINHAS --- */
+   
     background-image: url('https://wallpaper.forfun.com/fetch/6f/6f64ebc05f06b32deeff02e8dc09c4af.jpeg'); 
-    background-size: cover;        /* Faz a imagem cobrir a tela toda */
-    background-position: center;   /* Centraliza a imagem */
-    background-attachment: fixed;  /* Impede que o fundo role com a página */
-    /* ---------------------------- */
+    background-size: cover;        
+    background-position: center;   
+    background-attachment: fixed;  
+  
 
     height: 100vh;
     display: flex;
@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 
-/* O Cartão Principal */
+
 .container {
     background-color: rgba(20, 20, 20, 0.9);
     padding: 30px;
@@ -32,13 +32,13 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Layout em duas colunas */
+
 .form-wrapper {
     display: flex;
     gap: 20px;
 }
 
-/* Estilo da Foto */
+
 .photo-section {
     flex: 1;
     display: flex;
@@ -61,7 +61,7 @@ h2 {
     object-fit: cover;
 }
 
-/* Seção de Inputs */
+
 .input-section {
     flex: 2;
     display: flex;
@@ -83,7 +83,7 @@ input, select, textarea {
     color: white;
 }
 
-/* Botão Amarelo */
+
 .btn-gerar {
     background-color: #ffcc00;
     border: none;
