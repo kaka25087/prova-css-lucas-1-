@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    
+    /* --- ADICIONE ESTAS LINHAS --- */
+    background-image: url('https://wallpaper.forfun.com/fetch/6f/6f64ebc05f06b32deeff02e8dc09c4af.jpeg'); 
+    background-size: cover;        /* Faz a imagem cobrir a tela toda */
+    background-position: center;   /* Centraliza a imagem */
+    background-attachment: fixed;  /* Impede que o fundo role com a página */
+    /* ---------------------------- */
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* O Cartão Principal */
+.container {
+    background-color: rgba(20, 20, 20, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+/* Layout em duas colunas */
+.form-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilo da Foto */
+.photo-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.photo-preview {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #ffcc00;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.photo-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Seção de Inputs */
+.input-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+/* Botão Amarelo */
+.btn-gerar {
+    background-color: #ffcc00;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-gerar:hover {
+    background-color: #e6b800;
+}
